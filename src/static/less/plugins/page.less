@@ -1,0 +1,31 @@
+.xt-page{
+  padding:0;
+  width:auto;
+  height:1.5em;
+  list-style: none;
+  .current{
+    background-color: #ccc;
+    color:#fff;
+  }
+  .pre{
+    width:1em;
+  }
+  .next{
+    .pre
+  }
+  li{
+    cursor:pointer;
+    border:0.0625em solid #ccc;
+    border-radius:0.3125em ;
+    display: inline-block;
+    width:1em;
+    padding:0.3125em;
+    color:#000;
+    margin:0.125em;
+    text-align: center;
+    &:hover{
+      .current
+    }
+  }
+
+}

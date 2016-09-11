@@ -1,0 +1,59 @@
+#itemInfo{
+  width: 50%;
+  margin: 30px auto;
+  .search{
+    width:100%;
+    padding-bottom: 20px;
+    .textInput{
+      width: 64%;
+      height: 35px;
+      border-radius: 5px;
+    }
+    .basicText{
+      color: black;
+      font-family: 微软雅黑;
+      padding: 3px 0 15px 0;
+    }
+    .search-button{
+      height: 39px;
+      width: 91px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+    }
+  }
+  .list{
+    width:100%;
+    .ulBasic{
+      width:630px;
+      list-style: none;
+      background-color: white;
+      height: 500px;
+      padding: 0;
+      border-radius: 9px;
+      .myLi{
+        border-bottom: 1px dotted black;
+        padding: 12px;
+        .cross{
+          width: 20px;
+          height: 20px;
+          background-color: #F3F9FF;
+          border-radius: 10px;
+          border: 1px solid #DBE6EF;
+          display: inline-block;
+          position: relative;
+          right: -564px;
+          &:after{
+              content: "\2715";
+              color: #4E4E4F;
+              font-size: 12px;
+              position: relative;
+              top:-4px;
+              left: 6px;
+            }
+          }
+        }
+
+      }
+    }
+  }

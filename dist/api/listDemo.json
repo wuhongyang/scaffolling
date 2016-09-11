@@ -1,0 +1,9 @@
+{
+  "data":[
+    {"name":"宝马X5", "id":"BM","index":0},
+    {"name":"奔驰", "id":"BC","index":1},
+    {"name":"玛莎拉蒂", "id":"MS","index":2},
+    {"name":"兰博基尼", "id":"LB","index":3},
+    {"name":"莱斯","id":"LS","index":4}
+  ]
+}

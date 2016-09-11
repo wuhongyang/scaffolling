@@ -1,0 +1,45 @@
+@import "variable";
+@import "style/blue";
+body {
+  background: -moz-linear-gradient(-45deg, @gradient0 0, @gradient25 25%, @gradient50 50%, @gradient50 75%, @gradient100 100%);
+  background: -webkit-linear-gradient(-45deg, @gradient0 0, @gradient25 25%, @gradient50 50%, @gradient50 75%, @gradient100 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+//=======webkit========
+::-webkit-scrollbar {
+  width: @PX10;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: @PX10;
+  background-color: @scrollTrackBGC;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: @PX10;
+  background-color: @scrollThumbBGC;
+}
+//container.less
+#app {
+  .nav {
+    background-color: cadetblue;
+    list-style: none;
+    height: 49px;
+    li {
+      display: inline-block;
+      color: #FFF;
+      a {
+        color: #FFF;
+        display: inline-block;
+        padding: 12px 53px;
+        cursor: pointer;
+      }
+      .active {
+        background: -moz-linear-gradient(-45deg, @gradient0 0, @gradient25 25%, @gradient50 50%, @gradient50 75%, @gradient100 100%);
+        background: -webkit-linear-gradient(-45deg, @gradient0 0, @gradient25 25%, @gradient50 50%, @gradient50 75%, @gradient100 100%);
+        color: white;
+      }
+    }
+  }
+}
